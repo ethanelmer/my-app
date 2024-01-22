@@ -3,7 +3,7 @@ import {Route, Routes} from 'react-router';
 import './App.css';
 import Layout from './Components/Layout';
 import Portfolio from './Components/Portfolio';
-import Contact from './Components/Involvement';
+import Involvement from './Components/Involvement';
 
 function App() {
   return (
@@ -11,9 +11,9 @@ function App() {
     
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout/>}/>
-        <Route path='/portfolio' element={<Portfolio/>}/>
-        <Route path = '/involvement' element ={<Contact/>}>
+        <Route path="https://ethanelmer.github.io/my-app/" element={<Layout/>}/>
+        <Route path='https://ethanelmer.github.io/my-app//portfolio' element={<Portfolio/>}/>
+        <Route path = 'https://ethanelmer.github.io/my-app//involvement' element ={<Involvement/>}>
         </Route>
       </Routes>
     </BrowserRouter>
