@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import {Route, Routes} from 'react-router';
 import './App.css';
 import Layout from './Components/Layout';
@@ -9,14 +9,14 @@ function App() {
   return (
   <div className="App">
     
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout/>}/>
         <Route path='/Portfolio' element={<Portfolio/>}/>
         <Route path = '/Involvement' element ={<Involvement/>}>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </div>);
 }
 
