@@ -11,9 +11,9 @@ function App() {
     
     <BrowserRouter>
       <Routes>
-        <Route path="https://ethanelmer.github.io/my-app/" element={<Layout/>}/>
-        <Route path='https://ethanelmer.github.io/my-app//portfolio' element={<Portfolio/>}/>
-        <Route path = 'https://ethanelmer.github.io/my-app//involvement' element ={<Involvement/>}>
+        <Route path="/" element={<Layout/>}/>
+        <Route path='/Portfolio' element={<Portfolio/>}/>
+        <Route path = '/Involvement' element ={<Involvement/>}>
         </Route>
       </Routes>
     </BrowserRouter>
